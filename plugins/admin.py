@@ -6,7 +6,6 @@ from pyrogram import Client as Clinton
 from pyrogram import filters
 from config import Config
 from database.access import clinton
-from plugins.buttons import *
 @Clinton.on_message(filters.private & filters.command('total'))
 async def sts(c, m):
     if m.from_user.id != Config.OWNER_ID:
