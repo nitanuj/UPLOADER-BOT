@@ -10,7 +10,7 @@ class Translation(object):
     SAVED_CUSTOM_THUMB_NAIL = "✅ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴀᴠᴇᴅ."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴄʟᴇᴀʀᴇᴅ ꜱᴜᴄᴄᴇꜱꜰᴜʟʟʏ."
     CUSTOM_CAPTION_UL_FILE = "{}"
-    NO_VOID_FORMAT_FOUND = "ᴇʀʀᴏʀ...\ɴ<ʙ>ʏᴏᴜᴛᴜʙᴇᴅʟ ꜱᴀɪᴅ: {}"
+    NO_VOID_FORMAT_FOUND = "ᴇʀʀᴏʀ...\n<b>ʏᴏᴜᴛᴜʙᴇᴅʟ ꜱᴀɪᴅ: {}"
     HELP_USER = """ʜᴏᴡ ᴛᴏ ᴜꜱᴇ ᴍᴇ? ꜰᴏʟʟᴏᴡ ᴛʜᴇꜱᴇ ꜱᴛᴇᴘꜱ! 
     1. ꜱᴇɴᴅ ᴜʀʟ (ᴇxᴀᴍᴘʟᴇ.ᴅᴏᴍᴀɪɴ/ꜰɪʟᴇ.ᴍᴘ4 | ɴᴇᴡ ꜰɪʟᴇɴᴀᴍᴇ.ᴍᴘ4).
     2. ꜱᴇɴᴅ ɪᴍᴀɢᴇ ᴀꜱ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ (ᴏᴘᴛɪᴏɴᴀʟ).
