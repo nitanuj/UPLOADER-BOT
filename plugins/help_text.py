@@ -44,9 +44,11 @@ async def start(bot, update):
         text=Translation.START_TEXT.format(update.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [
-                    [InlineKeyboardButton("Owner", url="https://t.me/Kallu_bhangi")],
-                
-                [InlineKeyboardButton("Developer 👨‍⚖️", url="https://t.me/clinton_abraham")],
+                    [InlineKeyboardButton("Owner", url="https://t.me/Kallu_bhangi"),
+                  InlineKeyboardButton("Renamer Bot", url="http://t.me/Rei_Suzukawa_bot")],
+              
+                [InlineKeyboardButton("Mega URL Bot", url="http://t.me/Chizuru_Ichinose_xbot"),
+                 InlineKeyboardButton("Developer 👨‍⚖️", url="https://t.me/clinton_abraham")],
             ]
         ),
         reply_to_message_id=update.message_id
