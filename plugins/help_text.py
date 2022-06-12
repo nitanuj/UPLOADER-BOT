@@ -44,8 +44,8 @@ async def start(bot, update):
         text=Translation.START_TEXT.format(update.from_user.mention),
         reply_markup=InlineKeyboardMarkup(
             [
-                    InlineKeyboardButton("Owner", url="https://t.me/Kallu_bhangi"),
-                ],
+                    [InlineKeyboardButton("Owner", url="https://t.me/Kallu_bhangi")],
+                
                 [InlineKeyboardButton("Developer 👨‍⚖️", url="https://t.me/clinton_abraham")],
             ]
         ),
