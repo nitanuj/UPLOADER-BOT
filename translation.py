@@ -20,12 +20,10 @@ class Translation(object):
     -ᴠɪᴅᴇᴏ  - ɢɪᴠᴇ ꜰɪʟᴇ ᴀꜱ ᴠɪᴅᴇᴏ ᴡɪᴛʜᴏᴜᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ    
     -ꜰɪʟᴇ   - ɢɪᴠᴇ ꜰɪʟᴇ ᴡɪᴛʜᴏᴜᴛ ꜱᴄʀᴇᴇɴꜱʜᴏᴛꜱ
 """
-    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "Reply /generatecustomthumbnail to a media album, to generate custom thumbail"
-    ERR_ONLY_TWO_MEDIA_IN_ALBUM = """Media Album should contain only two photos. Please re-send the media album, and then try again, or send only two photos in an album."
-You can use /rename command after receiving file to rename it with custom thumbnail support.
-"""
-    CANCEL_STR = "Process Cancelled"
-    ZIP_UPLOADED_STR = "Uploaded {} files in {} seconds"
-    SLOW_URL_DECED = "Gosh that seems to be a very slow URL. Since you were screwing my home, I am in no mood to download this file. Meanwhile, why don't you try this:==> https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
+    REPLY_TO_MEDIA_ALBUM_TO_GEN_THUMB = "ʀᴇᴘʟʏ /generatecustomthumbnail ᴛᴏ ᴀ ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ, ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙ"
+    ERR_ONLY_TWO_MEDIA_IN_ALBUM = """ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ ꜱʜᴏᴜʟᴅ ᴄᴏɴᴛᴀɪɴ ᴏɴʟʏ ᴛᴡᴏ ᴘʜᴏᴛᴏꜱ. ᴘʟᴇᴀꜱᴇ ʀᴇ-ꜱᴇɴᴅ ᴛʜᴇ ᴍᴇᴅɪᴀ ᴀʟʙᴜᴍ, ᴀɴᴅ ᴛʜᴇɴ ᴛʀʏ ᴀɢᴀɪɴ, ᴏʀ ꜱᴇɴᴅ ᴏɴʟʏ ᴛᴡᴏ ᴘʜᴏᴛᴏꜱ ɪɴ ᴀɴ ᴀʟʙᴜᴍ.\nʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ /rename ᴄᴏᴍᴍᴀɴᴅ ᴀꜰᴛᴇʀ ʀᴇᴄᴇɪᴠɪɴɢ ꜰɪʟᴇ ᴛᴏ ʀᴇɴᴀᴍᴇ ɪᴛ ᴡɪᴛʜ ᴄᴜꜱᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ꜱᴜᴘᴘᴏʀᴛ."""
+    CANCEL_STR = "𝙋𝙧𝙤𝙘𝙚𝙨𝙨 𝘾𝙖𝙣𝙘𝙚𝙡𝙡𝙚𝙙"
+    ZIP_UPLOADED_STR = "𝙐𝙥𝙡𝙤𝙖𝙙𝙚𝙙 {} 𝙛𝙞𝙡𝙚𝙨 𝙞𝙣 {} 𝙨𝙚𝙘𝙤𝙣𝙙𝙨\n\n𝙂𝙞𝙫𝙚 𝙢𝙚 1$"
+    SLOW_URL_DECED = "ᴛʜᴀᴛ ꜱᴇᴇᴍꜱ ᴛᴏ ʙᴇ ᴀ ᴠᴇʀʏ ꜱʟᴏᴡ ᴜʀʟ. ꜱɪɴᴄᴇ ʏᴏᴜ ᴡᴇʀᴇ ꜱᴄʀᴇᴡɪɴɢ ᴍʏ ʜᴏᴍᴇ, ɪ ᴀᴍ ɪɴ ɴᴏ ᴍᴏᴏᴅ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ ᴛʜɪꜱ ꜰɪʟᴇ.\n\nᴍᴇᴀɴᴡʜɪʟᴇ, ᴡʜʏ ᴅᴏɴ'ᴛ ʏᴏᴜ ᴛʀʏ ᴛʜɪꜱ:==> https://shrtz.me/PtsVnf6 ᴀɴᴅ ɢᴇᴛ ᴍᴇ ᴀ ꜰᴀꜱᴛ ᴜʀʟ ꜱᴏ ᴛʜᴀᴛ ɪ ᴄᴀɴ ᴜᴘʟᴏᴀᴅ ᴛᴏ ᴛᴇʟᴇɢʀᴀᴍ, ᴡɪᴛʜᴏᴜᴛ ᴍᴇ ꜱʟᴏᴡɪɴɢ ᴅᴏᴡɴ ꜰᴏʀ ᴏᴛʜᴇʀ ᴜꜱᴇʀꜱ."
 
-    ERROR_YTDLP = "please report this issue on https://yt-dl.org/bug . Make sure you are using the latest version; see  https://yt-dl.org/update  on how to update. Be sure to call youtube-dl with the --verbose flag and include its complete output."
+    ERROR_YTDLP = "𝙥𝙡𝙚𝙖𝙨𝙚 𝙧𝙚𝙥𝙤𝙧𝙩 𝙩𝙝𝙞𝙨 𝙞𝙨𝙨𝙪𝙚 𝙤𝙣 https://yt-dl.org/bug . 𝙈𝙖𝙠𝙚 𝙨𝙪𝙧𝙚 𝙮𝙤𝙪 𝙖𝙧𝙚 𝙪𝙨𝙞𝙣𝙜 𝙩𝙝𝙚 𝙡𝙖𝙩𝙚𝙨𝙩 𝙫𝙚𝙧𝙨𝙞𝙤𝙣; 𝙨𝙚𝙚  https://yt-dl.org/update  𝙤𝙣 𝙝𝙤𝙬 𝙩𝙤 𝙪𝙥𝙙𝙖𝙩𝙚. 𝘽𝙚 𝙨𝙪𝙧𝙚 𝙩𝙤 𝙘𝙖𝙡𝙡 𝙮𝙤𝙪𝙩𝙪𝙗𝙚-𝙙𝙡 𝙬𝙞𝙩𝙝 𝙩𝙝𝙚 --𝙫𝙚𝙧𝙗𝙤𝙨𝙚 𝙛𝙡𝙖𝙜 𝙖𝙣𝙙 𝙞𝙣𝙘𝙡𝙪𝙙𝙚 𝙞𝙩𝙨 𝙘𝙤𝙢𝙥𝙡𝙚𝙩𝙚 𝙤𝙪𝙩𝙥𝙪𝙩."
